@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the Valkyrja Framework package.
+ * This file is part of the REPONAME package.
  *
  * (c) Melech Mizrachi <melechmizrachi@gmail.com>
  *
@@ -15,4 +15,17 @@ namespace Valkyrja\Template\Constant;
 
 final class Constant
 {
+    /**
+     * The package version.
+     *
+     * @var non-empty-string
+     */
+    public const string VERSION = '1.0.0';
+
+    /**
+     * The package version build datetime.
+     *
+     * @var non-empty-string
+     */
+    public const string VERSION_BUILD_DATE_TIME = 'January 1 2025 00:00:00 MST';
 }
