@@ -2,99 +2,92 @@
     <img src="https://raw.githubusercontent.com/valkyrjaio/art/refs/heads/master/long-banner/orange/php.png" width="100%">
 </a></p>
 
-# PHP Template
+# Project Template (PHP)
 
-A PHP package template for the [Valkyrja][Valkyrja url] PHP framework.
+A starter template for creating new PHP repositories in the Valkyrjaio
+organization.
 
-About Repository
-----------------
-
-> This repository is a template for creating new Valkyrja PHP packages.
+This template ships with the full Valkyrja CI pipeline pre-wired (PHPStan,
+Psalm, PHPCodeSniffer, PHP CS Fixer, PHPArkitect, Rector, PHPUnit), a
+minimal composer setup, and the repository conventions used across the
+rest of the org. Use it as the starting point for any new PHP package,
+CI tool config, or integration repo — not for end-user applications built
+on the Valkyrja framework (use [`valkyrja-starter-app-php`][starter url]
+for that).
 
 <p>
     <a href="https://packagist.org/packages/valkyrja/php-template"><img src="https://poser.pugx.org/valkyrja/php-template/require/php" alt="PHP Version Require"></a>
     <a href="https://packagist.org/packages/valkyrja/php-template"><img src="https://poser.pugx.org/valkyrja/php-template/v" alt="Latest Stable Version"></a>
     <a href="https://packagist.org/packages/valkyrja/php-template"><img src="https://poser.pugx.org/valkyrja/php-template/license" alt="License"></a>
-    <a href="https://scrutinizer-ci.com/g/valkyrjaio/php-template/?branch=master"><img src="https://scrutinizer-ci.com/g/valkyrjaio/php-template/badges/quality-score.png?b=master" alt="Scrutinizer"></a>
-    <a href="https://coveralls.io/github/valkyrjaio/php-template?branch=master"><img src="https://coveralls.io/repos/github/valkyrjaio/php-template/badge.svg?branch=master" alt="Coverage Status" /></a>
-    <a href="https://shepherd.dev/github/valkyrjaio/php-template"><img src="https://shepherd.dev/github/valkyrjaio/php-template/coverage.svg" alt="Psalm Shepherd" /></a>
+    <a href="https://github.com/valkyrjaio/project-template-php/actions/workflows/ci.yml?query=branch%3Amaster"><img src="https://github.com/valkyrjaio/project-template-php/actions/workflows/ci.yml/badge.svg?branch=master" alt="CI Status"></a>
+    <a href="https://scrutinizer-ci.com/g/valkyrjaio/project-template-php/?branch=master"><img src="https://scrutinizer-ci.com/g/valkyrjaio/project-template-php/badges/quality-score.png?b=master" alt="Scrutinizer"></a>
+    <a href="https://coveralls.io/github/valkyrjaio/project-template-php?branch=master"><img src="https://coveralls.io/repos/github/valkyrjaio/project-template-php/badge.svg?branch=master" alt="Coverage Status" /></a>
+    <a href="https://shepherd.dev/github/valkyrjaio/project-template-php"><img src="https://shepherd.dev/github/valkyrjaio/project-template-php/coverage.svg" alt="Psalm Shepherd" /></a>
     <a href="https://sonarcloud.io/summary/new_code?id=valkyrjaio_php-template"><img src="https://sonarcloud.io/api/project_badges/measure?project=valkyrjaio_php-template&metric=sqale_rating" alt="Maintainability Rating" /></a>
 </p>
 
-Build Status
-------------
+Usage
+-----
 
-<table>
-    <tbody>
-        <tr>
-            <td>Linting</td>
-            <td>
-                <a href="https://github.com/valkyrjaio/php-template/actions/workflows/phpcodesniffer.yml?query=branch%3Amaster"><img src="https://github.com/valkyrjaio/php-template/actions/workflows/phpcodesniffer.yml/badge.svg?branch=master" alt="PHP Code Sniffer Build Status"></a>
-            </td>
-            <td>
-                <a href="https://github.com/valkyrjaio/php-template/actions/workflows/phpcsfixer.yml?query=branch%3Amaster"><img src="https://github.com/valkyrjaio/php-template/actions/workflows/phpcsfixer.yml/badge.svg?branch=master" alt="PHP CS Fixer Build Status"></a>
-            </td>
-        </tr>
-        <tr>
-            <td>Coding Rules</td>
-            <td>
-                <a href="https://github.com/valkyrjaio/php-template/actions/workflows/phparkitect.yml?query=branch%3Amaster"><img src="https://github.com/valkyrjaio/php-template/actions/workflows/phparkitect.yml/badge.svg?branch=master" alt="PHPArkitect Build Status"></a>
-            </td>
-            <td>
-                <a href="https://github.com/valkyrjaio/php-template/actions/workflows/rector.yml?query=branch%3Amaster"><img src="https://github.com/valkyrjaio/php-template/actions/workflows/rector.yml/badge.svg?branch=master" alt="Rector Build Status"></a>
-            </td>
-        </tr>
-        <tr>
-            <td>Static Analysis</td>
-            <td>
-                <a href="https://github.com/valkyrjaio/php-template/actions/workflows/phpstan.yml?query=branch%3Amaster"><img src="https://github.com/valkyrjaio/php-template/actions/workflows/phpstan.yml/badge.svg?branch=master" alt="PHPStan Build Status"></a>
-            </td>
-            <td>
-                <a href="https://github.com/valkyrjaio/php-template/actions/workflows/psalm.yml?query=branch%3Amaster"><img src="https://github.com/valkyrjaio/php-template/actions/workflows/psalm.yml/badge.svg?branch=master" alt="Psalm Build Status"></a>
-            </td>
-        </tr>
-        <tr>
-            <td>Testing</td>
-            <td>
-                <a href="https://github.com/valkyrjaio/php-template/actions/workflows/phpunit.yml?query=branch%3Amaster"><img src="https://github.com/valkyrjaio/php-template/actions/workflows/phpunit.yml/badge.svg?branch=master" alt="PHPUnit Build Status"></a>
-            </td>
-            <td></td>
-        </tr>
-    </tbody>
-</table>
+### Use this template _(recommended)_
+
+This repository is a GitHub template. Click the **Use this template** button
+at the top of the repo to create a new repository in the Valkyrjaio
+organization, pre-populated with the template's structure and CI.
+
+### After Creating Your Repo
+
+1. Update `composer.json` with your package's name, description, and
+   autoload namespace
+2. Replace the contents of `src/` with your package's source code
+3. Update this `README.md` to describe the new package
+4. Configure the required secrets and variables — see
+   [`REPOSITORY_NAMING.md`][repository naming url] for naming guidance and
+   `.github`'s workflow documentation for secret requirements
+5. Verify CI passes on the first commit
+
+What's Included
+---------------
+
+- **Full CI pipeline** — the same PHPStan, Psalm, PHPCodeSniffer, PHP CS
+  Fixer, PHPArkitect, Rector, and PHPUnit configuration used across every
+  Valkyrjaio PHP repo
+- **Composer configuration** — `composer.json` with scripts for each CI
+  tool, matching the org convention
+- **Repository conventions** — aligned with
+  [`REPOSITORY_NAMING.md`][repository naming url] and
+  [`VOCABULARY.md`][vocabulary url]
 
 Versioning and Release Process
 ------------------------------
 
-This package uses [semantic versioning][semantic versioning url] with a major
-release every year, and support for each major version for 2 years from the
-date of release.
+This template follows [semantic versioning][semantic versioning url] with a
+major release every year, and support for each major version for 2 years
+from the date of release.
 
-For more information view our
+For more information see our
 [Versioning and Release Process documentation][Versioning and Release Process url].
 
 ### Supported Versions
 
-Bug fixes will be provided until 3 months after the next major release. Security
-fixes will be provided for 2 years after the initial release.
+Bug fixes are provided until 3 months after the next major release. Security
+fixes are provided for 2 years after the initial release.
 
-| Version | PHP (*)   | Release        | Bug Fixes Until | Security Fixes Until |
+| Version | PHP       | Release        | Bug Fixes Until | Security Fixes Until |
 |:--------|:----------|:---------------|:----------------|:---------------------|
-| 26      | 8.4 - 8.6 | March 31, 2026 | Q2 2027         | Q1 2028              |
-| 27      | 8.5 - 8.6 | Q1 2027        | Q2 2028         | Q1 2029              |
+| 26      | 8.4 – 8.6 | March 31, 2026 | Q2 2027         | Q1 2028              |
+| 27      | 8.5 – 8.6 | Q1 2027        | Q2 2028         | Q1 2029              |
 | 28      | 8.6+      | Q1 2028        | Q2 2029         | Q1 2030              |
-
-(*) Supported PHP versions
 
 Contributing
 ------------
 
-This package is an Open Source, community-driven project.
+This template is an open-source, community-driven project. Improvements to
+the template itself — refinements to the included CI configuration, composer
+setup, or documentation — are welcome.
 
-Thank you for your interest in contributing!
-
-You can find more information in our
-[Contributing documentation][contributing url].
+See [`CONTRIBUTING.md`][contributing url] for the submission process and
+[`VOCABULARY.md`][vocabulary url] for the terminology used across Valkyrja.
 
 Security Issues
 ---------------
@@ -105,20 +98,25 @@ If you discover a security vulnerability, please follow our
 License
 -------
 
-This package is open-sourced software licensed under
-the [MIT license][MIT license url]. You can view the
-[Valkyrja License here][license url].
+This template is open-source software licensed under the
+[MIT license][MIT license url]. See [`LICENSE.md`](./LICENSE.md).
 
 [Valkyrja url]: https://valkyrja.io
 
-[Versioning and Release Process url]: ./VERSIONING_AND_RELEASE_PROCESS.md
+[starter url]: https://github.com/valkyrjaio/valkyrja-starter-app-php
 
-[security vulnerabilities url]: https://github.com/valkyrjaio/.github/SECURITY.md
+[repository naming url]: https://github.com/valkyrjaio/.github/blob/master/REPOSITORY_NAMING.md
+
+[vocabulary url]: https://github.com/valkyrjaio/.github/blob/master/VOCABULARY.md
+
+[contributing url]: https://github.com/valkyrjaio/.github/blob/master/CONTRIBUTING.md
+
+[security vulnerabilities url]: https://github.com/valkyrjaio/.github/blob/master/SECURITY.md
+
+[Versioning and Release Process url]: ./VERSIONING_AND_RELEASE_PROCESS.md
 
 [semantic versioning url]: https://semver.org/
 
 [MIT license url]: https://opensource.org/licenses/MIT
 
 [license url]: ./LICENSE.md
-
-[contributing url]: https://github.com/valkyrjaio/.github/CONTRIBUTING.md
