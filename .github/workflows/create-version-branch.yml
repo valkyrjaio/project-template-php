@@ -6,7 +6,7 @@ run-name: Create new version for upcoming major release
 
 jobs:
   create:
-    uses: valkyrjaio/.github/.github/workflows/_create-php-version-branch.yml@master
+    uses: valkyrjaio/.github/.github/workflows/_create-php-version-branch.yml@2b626b4cd5090fb9d998ba35450775bfea79b21b
     secrets: inherit
     with:
       dependencies: |
