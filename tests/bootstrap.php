@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the Sindri package.
+ * This file is part of the REPONAME package.
  *
  * (c) Melech Mizrachi <melechmizrachi@gmail.com>
  *
