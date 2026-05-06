@@ -270,16 +270,16 @@
         },
         {
             "name": "valkyrja/valkyrja",
-            "version": "26.x-dev",
+            "version": "v26.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/valkyrja-php.git",
-                "reference": "6125890311e2f46279f2b5e023af4ebaae831b25"
+                "reference": "e5308ee455e6b5c1bf2e876747f14d15abb43f7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/6125890311e2f46279f2b5e023af4ebaae831b25",
-                "reference": "6125890311e2f46279f2b5e023af4ebaae831b25",
+                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/e5308ee455e6b5c1bf2e876747f14d15abb43f7a",
+                "reference": "e5308ee455e6b5c1bf2e876747f14d15abb43f7a",
                 "shasum": ""
             },
             "require": {
@@ -336,7 +336,6 @@
                 "twig/twig": "Required to use the Twig View engine (^3.24.0).",
                 "vonage/client-core": "Required to use the default SMS adapter (^4.13.0)."
             },
-            "default-branch": true,
             "type": "project",
             "autoload": {
                 "psr-4": {
@@ -361,9 +360,9 @@
             ],
             "support": {
                 "issues": "https://github.com/valkyrjaio/valkyrja-php/issues",
-                "source": "https://github.com/valkyrjaio/valkyrja-php/tree/26.x"
+                "source": "https://github.com/valkyrjaio/valkyrja-php/tree/v26.1.0"
             },
-            "time": "2026-05-05T22:08:08+00:00"
+            "time": "2026-05-05T23:13:44+00:00"
         }
     ],
     "packages-dev": [],
