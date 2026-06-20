@@ -19,9 +19,9 @@ for that).
     <a href="https://packagist.org/packages/valkyrja/php-template"><img src="https://poser.pugx.org/valkyrja/php-template/require/php" alt="PHP Version Require"></a>
     <a href="https://packagist.org/packages/valkyrja/php-template"><img src="https://poser.pugx.org/valkyrja/php-template/v" alt="Latest Stable Version"></a>
     <a href="https://packagist.org/packages/valkyrja/php-template"><img src="https://poser.pugx.org/valkyrja/php-template/license" alt="License"></a>
-    <a href="https://github.com/valkyrjaio/project-template-php/actions/workflows/ci.yml?query=branch%3Amaster"><img src="https://github.com/valkyrjaio/project-template-php/actions/workflows/ci.yml/badge.svg?branch=master" alt="CI Status"></a>
-    <a href="https://scrutinizer-ci.com/g/valkyrjaio/project-template-php/?branch=master"><img src="https://scrutinizer-ci.com/g/valkyrjaio/project-template-php/badges/quality-score.png?b=master" alt="Scrutinizer"></a>
-    <a href="https://coveralls.io/github/valkyrjaio/project-template-php?branch=master"><img src="https://coveralls.io/repos/github/valkyrjaio/project-template-php/badge.svg?branch=master" alt="Coverage Status" /></a>
+    <a href="https://github.com/valkyrjaio/project-template-php/actions/workflows/ci.yml?query=branch%3A26.x"><img src="https://github.com/valkyrjaio/project-template-php/actions/workflows/ci.yml/badge.svg?branch=26.x" alt="CI Status"></a>
+    <a href="https://scrutinizer-ci.com/g/valkyrjaio/project-template-php/?branch=26.x"><img src="https://scrutinizer-ci.com/g/valkyrjaio/project-template-php/badges/quality-score.png?b=26.x" alt="Scrutinizer"></a>
+    <a href="https://coveralls.io/github/valkyrjaio/project-template-php?branch=26.x"><img src="https://coveralls.io/repos/github/valkyrjaio/project-template-php/badge.svg?branch=26.x" alt="Coverage Status" /></a>
     <a href="https://shepherd.dev/github/valkyrjaio/project-template-php"><img src="https://shepherd.dev/github/valkyrjaio/project-template-php/coverage.svg" alt="Psalm Shepherd" /></a>
     <a href="https://sonarcloud.io/summary/new_code?id=valkyrjaio_php-template"><img src="https://sonarcloud.io/api/project_badges/measure?project=valkyrjaio_php-template&metric=sqale_rating" alt="Maintainability Rating" /></a>
 </p>
@@ -105,13 +105,13 @@ This template is open-source software licensed under the
 
 [starter url]: https://github.com/valkyrjaio/valkyrja-starter-app-php
 
-[repository naming url]: https://github.com/valkyrjaio/.github/blob/master/REPOSITORY_NAMING.md
+[repository naming url]: https://github.com/valkyrjaio/.github/blob/26.x/REPOSITORY_NAMING.md
 
-[vocabulary url]: https://github.com/valkyrjaio/.github/blob/master/VOCABULARY.md
+[vocabulary url]: https://github.com/valkyrjaio/.github/blob/26.x/VOCABULARY.md
 
-[contributing url]: https://github.com/valkyrjaio/.github/blob/master/CONTRIBUTING.md
+[contributing url]: https://github.com/valkyrjaio/.github/blob/26.x/CONTRIBUTING.md
 
-[security vulnerabilities url]: https://github.com/valkyrjaio/.github/blob/master/SECURITY.md
+[security vulnerabilities url]: https://github.com/valkyrjaio/.github/blob/26.x/SECURITY.md
 
 [Versioning and Release Process url]: ./VERSIONING_AND_RELEASE_PROCESS.md
 
