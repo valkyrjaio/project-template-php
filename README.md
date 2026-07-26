@@ -16,8 +16,8 @@ on the Valkyrja framework (use [`valkyrja-starter-app-php`][starter url]
 for that).
 
 <p>
-    <a href="https://packagist.org/packages/valkyrja/php-template"><img src="https://poser.pugx.org/valkyrja/php-template/require/php" alt="PHP Version Require"></a>
     <a href="https://packagist.org/packages/valkyrja/php-template"><img src="https://poser.pugx.org/valkyrja/php-template/v" alt="Latest Stable Version"></a>
+    <a href="https://packagist.org/packages/valkyrja/php-template"><img src="https://poser.pugx.org/valkyrja/php-template/require/php" alt="PHP Version Require"></a>
     <a href="https://packagist.org/packages/valkyrja/php-template"><img src="https://poser.pugx.org/valkyrja/php-template/license" alt="License"></a>
     <a href="https://github.com/valkyrjaio/project-template-php/actions/workflows/ci.yml?query=branch%3A26.x"><img src="https://github.com/valkyrjaio/project-template-php/actions/workflows/ci.yml/badge.svg?branch=26.x" alt="CI Status"></a>
     <a href="https://scrutinizer-ci.com/g/valkyrjaio/project-template-php/?branch=26.x"><img src="https://scrutinizer-ci.com/g/valkyrjaio/project-template-php/badges/quality-score.png?b=26.x" alt="Scrutinizer"></a>
