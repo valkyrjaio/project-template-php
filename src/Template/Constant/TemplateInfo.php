@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Valkyrja\Template\Constant;
 
-final class Constant
+final class TemplateInfo
 {
     /**
      * The package version.
