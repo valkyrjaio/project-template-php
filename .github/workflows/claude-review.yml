@@ -1,0 +1,19 @@
+name: Claude Review
+
+on:
+  pull_request:
+    branches: [ 'master', '*.x' ]
+    types: [ opened, ready_for_review, synchronize ]
+
+concurrency:
+  group: claude-review-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  claude-review:
+    name: Claude Review
+    uses: valkyrjaio/.github/.github/workflows/_claude-review.yml@14c1c1e29ddd8b1af74bc9c843d2a93d40ff9d50
+    permissions:
+      contents: read
+      pull-requests: write
+    secrets: inherit
