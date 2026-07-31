@@ -12,7 +12,7 @@ concurrency:
 jobs:
   claude-review:
     name: Claude Review
-    uses: valkyrjaio/.github/.github/workflows/_claude-review.yml@14c1c1e29ddd8b1af74bc9c843d2a93d40ff9d50
+    uses: valkyrjaio/.github/.github/workflows/_claude-review.yml@0f9937c07280c52b8480eb38de524a4ced39d363
     permissions:
       contents: read
       pull-requests: write
