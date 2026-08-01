@@ -18,16 +18,23 @@ use Valkyrja\Template\Tests\Abstract\TemplateTestCase;
 
 /**
  * Test the TemplateInfo constant class.
+ *
+ * The release workflow rewrites both constants. Each test asserts a format and never an exact value.
+ *
+ * Each pattern ends with \z, not $, because $ also matches before a trailing newline.
  */
 final class TemplateInfoTest extends TemplateTestCase
 {
-    public function testVersionIsSet(): void
+    public function testVersionHasTheVersionFormat(): void
     {
-        self::assertNotSame('', TemplateInfo::VERSION);
+        self::assertMatchesRegularExpression('/^\d+\.\d+\.\d+\z/', TemplateInfo::VERSION);
     }
 
-    public function testVersionBuildDateTimeIsSet(): void
+    public function testVersionBuildDateTimeHasTheBuildDateTimeFormat(): void
     {
-        self::assertNotSame('', TemplateInfo::VERSION_BUILD_DATE_TIME);
+        self::assertMatchesRegularExpression(
+            '/^[A-Z][a-z]+ \d{1,2} \d{4} \d{2}:\d{2}:\d{2} MST\z/',
+            TemplateInfo::VERSION_BUILD_DATE_TIME
+        );
     }
 }
