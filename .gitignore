@@ -1,4 +1,5 @@
 /.idea
+/.worktrees
 /vendor
 .DS_Store
 dbname*
