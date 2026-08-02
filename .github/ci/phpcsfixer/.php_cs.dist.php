@@ -5,10 +5,9 @@ declare(strict_types=1);
 /*
  * This file is part of the Project Template package.
  *
- * (c) Melech Mizrachi <melechmizrachi@gmail.com>
+ * Copyright (c) 2016-present Melech Mizrachi
  *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
+ * Released under the MIT License. See LICENSE.md for details.
  */
 
 use PhpCsFixer\Finder;
@@ -17,14 +16,17 @@ use Valkyrja\Fixer\Rules;
 $header = <<<EOF
     This file is part of the Project Template package.
 
-    (c) Melech Mizrachi <melechmizrachi@gmail.com>
+    Copyright (c) 2016-present Melech Mizrachi
 
-    For the full copyright and license information, please view the LICENSE
-    file that was distributed with this source code.
+    Released under the MIT License. See LICENSE.md for details.
     EOF;
 
 $finder = Finder::create()
-    ->exclude('.github')
+    // Finder ignores a dot directory by default, which put every PHP file under
+    // .github outside the header rule. Those files are this repository's own source
+    // and carry the header too, so the finder descends into them.
+    ->ignoreDotFiles(false)
+    ->exclude('.git')
     ->exclude('vendor')
     ->in(__DIR__ . '/../../../');
 
