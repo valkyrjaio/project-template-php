@@ -83,7 +83,7 @@ Bug fixes are provided until 3 months after the next major release. Security
 fixes are provided for 2 years after the initial release.
 
 | Version | PHP       | Release        | Bug Fixes Until | Security Fixes Until |
-|:--------|:----------|:---------------|:----------------|:---------------------|
+| :------ | :-------- | :------------- | :-------------- | :------------------- |
 | 26      | 8.4 – 8.6 | March 31, 2026 | Q2 2027         | Q1 2028              |
 | 27      | 8.5 – 8.6 | Q1 2027        | Q2 2028         | Q1 2029              |
 | 28      | 8.6+      | Q1 2028        | Q2 2029         | Q1 2030              |
@@ -111,23 +111,13 @@ This template is open-source software licensed under the
 [MIT license][MIT license url]. See [`LICENSE.md`](./LICENSE.md).
 
 [Valkyrja url]: https://valkyrja.io
-
 [starter url]: https://github.com/valkyrjaio/valkyrja-starter-app-php
-
 [repository naming url]: https://github.com/valkyrjaio/.github/blob/26.x/REPOSITORY_NAMING.md
-
 [copyright header url]: https://github.com/valkyrjaio/.github/blob/26.x/COPYRIGHT_HEADER.md
-
 [vocabulary url]: https://github.com/valkyrjaio/.github/blob/26.x/VOCABULARY.md
-
 [contributing url]: https://github.com/valkyrjaio/.github/blob/26.x/CONTRIBUTING.md
-
 [security vulnerabilities url]: https://github.com/valkyrjaio/.github/blob/26.x/SECURITY.md
-
 [Versioning and Release Process url]: ./VERSIONING_AND_RELEASE_PROCESS.md
-
 [semantic versioning url]: https://semver.org/
-
 [MIT license url]: https://opensource.org/licenses/MIT
-
 [license url]: ./LICENSE.md
