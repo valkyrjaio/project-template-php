@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the Valkyrja Framework package.
+ * This file is part of the Project Template package.
  *
  * (c) Melech Mizrachi <melechmizrachi@gmail.com>
  *
@@ -15,7 +15,7 @@ use PhpCsFixer\Finder;
 use Valkyrja\Fixer\Rules;
 
 $header = <<<EOF
-    This file is part of the REPONAME package.
+    This file is part of the Project Template package.
 
     (c) Melech Mizrachi <melechmizrachi@gmail.com>
 
