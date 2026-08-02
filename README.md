@@ -39,8 +39,10 @@ organization, pre-populated with the template's structure and CI.
 
 1. Update `composer.json` with your package's name, description, and
    autoload namespace
-2. Replace `REPONAME` in `.github/ci/phpcsfixer/.php_cs.dist.php` with the
-   name of the new package (for example `Sindri`)
+2. Replace `Project Template` in `.github/ci/phpcsfixer/.php_cs.dist.php` with
+   the name of the new package (for example `Sindri`)
+   - See [`COPYRIGHT_HEADER.md`][copyright header url] for the name that your
+     repository uses
    - PHP CS Fixer enforces this license header on every file outside
      `.github`
    - Run `composer phpcsfixer` to write the new name into each file
@@ -113,6 +115,8 @@ This template is open-source software licensed under the
 [starter url]: https://github.com/valkyrjaio/valkyrja-starter-app-php
 
 [repository naming url]: https://github.com/valkyrjaio/.github/blob/26.x/REPOSITORY_NAMING.md
+
+[copyright header url]: https://github.com/valkyrjaio/.github/blob/26.x/COPYRIGHT_HEADER.md
 
 [vocabulary url]: https://github.com/valkyrjaio/.github/blob/26.x/VOCABULARY.md
 
