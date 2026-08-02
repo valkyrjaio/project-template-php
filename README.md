@@ -39,12 +39,19 @@ organization, pre-populated with the template's structure and CI.
 
 1. Update `composer.json` with your package's name, description, and
    autoload namespace
-2. Replace the contents of `src/` with your package's source code
-3. Update this `README.md` to describe the new package
-4. Configure the required secrets and variables — see
+2. Replace `REPONAME` in `.github/ci/phpcsfixer/.php_cs.dist.php` with the
+   name of the new package (for example `Sindri`)
+   - PHP CS Fixer enforces this license header on every file outside
+     `.github`
+   - Run `composer phpcsfixer` to write the new name into each file
+   - PHP CS Fixer replaces a header that you edit by hand, so change the name
+     in `.php_cs.dist.php` only
+3. Replace the contents of `src/` with your package's source code
+4. Update this `README.md` to describe the new package
+5. Configure the required secrets and variables — see
    [`REPOSITORY_NAMING.md`][repository naming url] for naming guidance and
    `.github`'s workflow documentation for secret requirements
-5. Verify CI passes on the first commit
+6. Verify CI passes on the first commit
 
 What's Included
 ---------------
