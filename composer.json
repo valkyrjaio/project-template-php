@@ -16,7 +16,7 @@
   ],
   "require"           : {
     "php"               : ">=8.4",
-    "valkyrja/valkyrja" : "^26.13.4"
+    "valkyrja/valkyrja" : "^26.13.5"
   },
   "autoload"          : {
     "psr-4" : {
