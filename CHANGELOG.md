@@ -1,6 +1,14 @@
 # Release Notes for 26.x
 
-## [Unreleased](https://github.com/valkyrjaio/project-template-php/compare/v26.0.76...26.x)
+## [Unreleased](https://github.com/valkyrjaio/project-template-php/compare/v26.0.77...26.x)
+
+## [v26.0.77](https://github.com/valkyrjaio/project-template-php/compare/v26.0.76...v26.0.77) - 2026-10-23
+
+* [Dependency] build: Require PHP 8.4.27 or later by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/project-template-php/pull/383
+* [Dependency] docs: State the PHP 8.4.27 floor in the support table by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/project-template-php/pull/384
+* [Dependency] build: Update composer dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-php/pull/385
+* [Workflow] ci: Update .github workflow refs to v26.26.3 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-php/pull/387
+* [Dependency] build: Update composer dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-php/pull/386
 
 ## [v26.0.76](https://github.com/valkyrjaio/project-template-php/compare/v26.0.75...v26.0.76) - 2026-10-22
 
