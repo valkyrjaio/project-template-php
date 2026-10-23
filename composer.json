@@ -15,7 +15,7 @@
     }
   ],
   "require"           : {
-    "php"               : ">=8.4",
+    "php"               : ">=8.4.27",
     "valkyrja/valkyrja" : "^26.22.1"
   },
   "autoload"          : {
