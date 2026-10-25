@@ -19,12 +19,12 @@ final class TemplateInfo
      *
      * @var non-empty-string
      */
-    public const string VERSION = '26.0.77';
+    public const string VERSION = '26.0.78';
 
     /**
      * The package version build datetime.
      *
      * @var non-empty-string
      */
-    public const string VERSION_BUILD_DATE_TIME = 'October 23 2026 11:04:12 MST';
+    public const string VERSION_BUILD_DATE_TIME = 'October 25 2026 10:21:54 MST';
 }
