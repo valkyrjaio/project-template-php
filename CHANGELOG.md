@@ -1,6 +1,11 @@
 # Release Notes for 26.x
 
-## [Unreleased](https://github.com/valkyrjaio/project-template-php/compare/v26.0.91...26.x)
+## [Unreleased](https://github.com/valkyrjaio/project-template-php/compare/v26.0.92...26.x)
+
+## [v26.0.92](https://github.com/valkyrjaio/project-template-php/compare/v26.0.91...v26.0.92) - 2026-11-10
+
+* [Dependency] build: Update composer dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-php/pull/423
+* [Dependency] build: Update composer dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-php/pull/424
 
 ## [v26.0.91](https://github.com/valkyrjaio/project-template-php/compare/v26.0.90...v26.0.91) - 2026-11-09
 
