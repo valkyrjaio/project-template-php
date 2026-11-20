@@ -26,5 +26,5 @@ final class TemplateInfo
      *
      * @var non-empty-string
      */
-    public const string VERSION_BUILD_DATE_TIME = 'November 19 2026 14:57:21 MST';
+    public const string VERSION_BUILD_DATE_TIME = 'November 20 2026 14:39:35 MST';
 }
